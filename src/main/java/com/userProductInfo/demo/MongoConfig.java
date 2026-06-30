@@ -19,7 +19,7 @@ public class MongoConfig extends AbstractMongoClientConfiguration {
 
     @Override
     public MongoClient mongoClient() {
-        return MongoClients.create("mongodb://127.0.0.1:27017/productdb?replicaSet=rs0&directConnection=true");
+        return MongoClients.create("MangoDBURL");
     }
 
     @Override
